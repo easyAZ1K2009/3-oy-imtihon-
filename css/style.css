@@ -154,6 +154,8 @@ button:hover {
   flex-shrink: 0;
   display: flex;
   justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
 }
 .center .center--right {
   margin-top: 137px;
@@ -201,6 +203,9 @@ button:hover {
   width: 541px;
   height: 640px;
   flex-shrink: 0;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 .center--left .left1 {
   width: 541px;
@@ -224,6 +229,8 @@ h2 {
 
 .left1--text {
   display: flex;
+  margin-left: auto;
+  margin-right: 200px;
 }
 .left1--text .p4 {
   margin-top: -30px;
@@ -259,8 +266,6 @@ h2 {
   height: 412px;
   flex-shrink: 0;
   margin-top: 300px;
-  margin-right: auto;
-  margin-left: auto;
   gap: 10px;
 }
 .pusk .pusk1 {
